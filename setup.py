@@ -9,7 +9,7 @@ with open(ver_path) as ver_file:
 __version__ = ns['__version__']
 
 setup(
-    name='nbgitpuller',
+    name='nbgitpuller-testpypi',
     version=__version__,
     url='https://github.com/data-8/nbgitpuller',
     license='3-clause BSD',
