@@ -32,7 +32,7 @@ class TestNbGitPullerApi:
         if "server" in backend_type:
             command = [
                 'jupyter-server',
-                '--NotebookApp.token=secret',
+                '--ServerApp.token=secret',
                 '--port={}'.format(PORT),
             ]
         else:
